@@ -1,0 +1,86 @@
+body{
+  background-color: black;
+  max-width: 33%;
+}
+
+/* #pause{
+  position: relative;
+  top: -820px;
+  left: 670px;
+  display: inline-block;
+}
+
+#stop{
+  position: relative;
+  top: -820px;
+  left: 686px;
+  display: inline-block;
+} */
+
+.button{
+  display: none;
+  z-index: 1;
+}
+
+.background_image{
+  width: 42%;
+  margin: 20px 20%;
+  display: inline-block;
+  position: relative;
+  top: -27px;
+  left: 12%;
+}
+
+.backgroundBackground{
+  width: 35%;
+  margin: 0px -1%;
+  display: inline-block;
+  position: relative;
+  top: -90px;
+  z-index: 1;
+  left: 9%;
+}
+
+.backgroundBackground2{
+  width: 13%;
+  margin: 0px -1%;
+  display: inline-block;
+  position: relative;
+  top: -111px;
+  z-index: 1;
+  left: -545px;
+
+}
+
+#playlist{
+  top: -960px;
+  left: 548px;
+  margin: -13px -570px;
+  position: relative;
+  background-color: #7e988c;
+  padding: 7px 10px 13px 923px;
+  color: #85eedc;
+  position: relative;
+}
+
+.equalizer{
+  width: 13%;
+  margin: 0px -1%;
+  display: inline-block;
+  position: relative;
+  top: -210px;
+  z-index: 1;
+  left: 130px;
+  opacity: 0.2;
+}
+
+.equalizer2{
+  width: 13%;
+  margin: 0px -1%;
+  display: inline-block;
+  position: relative;
+  top: -210px;
+  z-index: 1;
+  left: 735px;
+  opacity: 0.2;
+}

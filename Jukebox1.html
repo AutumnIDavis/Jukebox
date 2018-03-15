@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+  <!-- Jukebox -->
+<head>
+  <script src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/Jukebox2.js" charset="utf-8"></script>
+  <link href="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/Jukebox.css"  rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <div class="backImages">
+      <div class="backgroundBackground">
+          <img src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/Music.gif" style="width:435%">
+      </div>
+    </div>
+
+    <div class="equalizer">
+      <img src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/giphy.gif" alt="equalizer">
+    </div>
+
+    <div class="equalizer2">
+      <img src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/giphy.gif" alt="equalizer">
+    </div>
+
+
+          <!-- Songs Below  -->
+
+		    <ul id="playlist">
+          <input type="button" value="Moonlight Sonata"  onclick="myJukebox.playAudio(0);">
+          <audio id="audio10" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/Beethoven-MoonlightSonata.mp3"></audio>
+          <br>
+          <br>
+
+          <input type="button" value="Ancholia"  onclick="myJukebox.playAudio(1);">
+          <audio id="audio" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/Ancholia.mp3" ></audio>
+          <br>
+          <br>
+
+          <input type="button" value="Unaccompanied Cello"  onclick="myJukebox.playAudio(2);">
+          <audio id="audio2" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/Unaccompanied Cello Suite No. 1 in G Major-Prelude.mp3" ></audio>
+          <br>
+          <br>
+
+          <input type="button" value="Out of it All"  onclick="myJukebox.playAudio(3);">
+          <audio id="audio9" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/Out of It All.mp3" ></audio>
+          <br>
+          <br>
+
+          <input type="button" value="Feels Alright"  onclick="myJukebox.playAudio(4);">
+          <audio id="audio8" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/Feels Alright.mp3" ></audio>
+          <br>
+          <br>
+
+          <input type="button" value="Cannon in D"  onclick="myJukebox.playAudio(5);">
+          <audio id="audio1" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/Canon in D.mp3" ></audio>
+          <br>
+          <br>
+
+          <input type="button" value="Feels So Good"  onclick="myJukebox.playAudio(6);">
+          <audio id="audio6" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/15 Feels So Good.mp3" ></audio>
+          <br>
+          <br>
+
+          <input type="button" value="Silhouette"  onclick="myJukebox.playAudio(6);">
+          <audio id="audio3" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/02 Silhouette.mp3" ></audio>
+            <br>
+            <br>
+
+          <input type="button" value="What a Wonderful World"  onclick="myJukebox.playAudio(7);">
+          <audio id="audio5" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/What A Wonderful World.mp3" ></audio>
+          <br>
+          <br>
+
+          <input type="button" value="The Moment"  onclick="myJukebox.playAudio(8);">
+          <audio id="audio4" src="/Users/foreverautumn/Desktop/WebDevelopment/Projects/Jukebox/songs/01 The Moment.mp3" ></audio>
+
+       </ul>
+
+
+
+         <!-- Buttons -->
+
+       <br>
+   		 <div id="buttons" style="position: relative; top: -922px; left: 695px; z-index: 1;">
+   		 <span>
+
+   			<button id="play"  onclick = "myJukebox.playAudio(4)">Play</button>
+   			<button id="pause" onclick = "myJukebox.pauseAudio()">Stop</button>
+
+   			</span>
+   		 </div>
+
+
+</body>
